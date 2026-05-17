@@ -61,6 +61,6 @@ D. Bảo trì (Maintainability):
 - Về phần Frontend (ReactJS): Chia nhỏ thành các Component độc lập để dễ tái sử dụng.
 - Về phần Backend (NodeJS): Cấu trúc theo mô hình Router - Controller - Service để tách biệt rõ ràng phần xử lý logic và phần giao tiếp với Database.
 
-
-
+Link GitHub: https://github.com/toan215/project-A
+Link Jira:https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9
 
