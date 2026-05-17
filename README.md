@@ -85,5 +85,6 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 - **Frontend (ReactJS):** Chia nhỏ giao diện thành các Component độc lập, tính đóng gói cao để dễ tái sử dụng.
 - **Backend (NodeJS):** Tuân thủ chặt chẽ kiến trúc Router - Controller - Service để tách biệt rõ ràng phần xử lý logic nghiệp vụ và phần giao tiếp với Database.
 
-- Link GitHub: https://github.com/toan215/project-A
-- Link Jira:https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9
+Link GitHub: https://github.com/toan215/project-A
+
+Link Jira: https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9
