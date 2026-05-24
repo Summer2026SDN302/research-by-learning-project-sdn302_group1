@@ -123,3 +123,5 @@ Link Jira: https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/bo
 Link Research: https://docs.google.com/document/d/1ohDlb1qm-i0SeNj-XxXq3qYZLXQPFUqug0bfvmgCZ-8/edit?usp=sharing
 
 Link Research Book: https://drive.google.com/drive/u/0/folders/1kIXRN33J7yGAsoFv9rfvwgtyx-4a9vk7
+
+Link SRS (Software Requirement Specification): https://docs.google.com/document/d/1Jh5JK_i4DPZS7n8mNYPOCFnxex3mCtss/edit?usp=sharing&ouid=105012640272031623658&rtpof=true&sd=true
