@@ -32,7 +32,7 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 ### Khách (Guests)
 
 - Xem chi tiết hồ sơ chuyên gia và xem các bài đăng trên diễn đàn cộng đồng.
-- ăng ký.
+- Đăng ký.
 - Đăng nhập (tài khoản/mật khẩu hoặc Google) .
 
 ### Người dùng (Sinh viên/Gen Z)
