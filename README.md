@@ -29,21 +29,37 @@ Dự án vận hành theo mô hình Freemium:
 
 Hệ thống được chia làm 3 phân hệ rõ ràng:
 
+### Khách (Guests)
+
+- Xem chi tiết hồ sơ chuyên gia và xem các bài đăng trên diễn đàn cộng đồng.
+- ăng ký.
+- Đăng nhập (tài khoản/mật khẩu hoặc Google) .
+
 ### Người dùng (Sinh viên/Gen Z)
 
-- AI Mental Companion (Chat miễn phí): Trợ lý ảo AI đóng vai trò như người lắng nghe, phân tích ngữ cảnh và đưa ra các bài tập thư giãn (thở sâu, thiền).
-- Phòng khám ẩn danh (Booking System): Xem profile chuyên gia, đặt lịch và thanh toán online để chat/call video.
-- Góc tâm sự (Safe Forum): Nơi đăng bài ẩn danh, cộng đồng chia sẻ, hệ thống tự động ẩn comment độc hại.
+- Xem hồ sơ, chỉnh sửa hồ sơ (chỉnh sửa tên, mật khẩu, xác lập tài khoản Ẩn danh).
+- Trò chuyện với AI, tương tác trên diễn đàn (đăng/bình luận/sửa/xóa bài).
+- Thực hiện đặt lịch với chuyên gia.
+- Gửi tin nhắn cho chuyên gia (sau khi thanh toán thành công).
+- Gửi các báo cáo vi phạm hoặc lỗi.
 
 ### Chuyên gia / Bác sĩ tâm lý (Providers)
 
-- Workspace: Nhận lịch hẹn, tiếp nhận các ca tư vấn trực tuyến.
-- AI Context Summary: Nhờ AI đã chat với người dùng từ trước, AI sẽ tóm tắt sẵn hồ sơ và lịch sử cảm xúc của người đó đưa cho chuyên gia. Điều này giúp giảm mạnh thời gian chẩn đoán ban đầu, chuyên gia đi thẳng vào vấn đề cốt lõi.
+- Chỉnh sửa hồ sơ chuyên gia.
+- Kiểm tra lịch trình và thiết lập số ca nhận tối đa.
+- Xem danh sách lịch hẹn, có thể mở rộng tải xuống danh sách.
+- Bắt đầu ca tư vấn và xác nhận hoàn thành ca khám.
+- Xem báo cáo hiệu suất.
+- Yêu cầu điều chỉnh mức giá mong muốn
 
 ### Quản trị viên (Admin)
 
-- Quản lý giao dịch, đối soát doanh thu với chuyên gia.
-- Xác thực bằng cấp của chuyên gia trước khi cho phép hoạt động trên nền tảng.
+- Xem hồ sơ, duyệt/từ chối cấp phép hoạt động .
+- Tạo diễn đàn, cập nhật diễn đàn.
+- Xem các báo cáo vi phạm và có thể thực hiện Cấm người dùng nếu vi phạm.
+- Thay đổi phân quyền tài khoản.
+- Xem báo cáo tài chính, chỉnh sửa tỷ lệ hoa hồng
+- Xem phân tích hệ thống với các bộ lọc mở rộng theo tuần/tháng/năm.
 
 ---
 
@@ -103,3 +119,7 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 ---
 
 Link Jira: https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9
+
+Link Research: https://docs.google.com/document/d/1ohDlb1qm-i0SeNj-XxXq3qYZLXQPFUqug0bfvmgCZ-8/edit?usp=sharing
+
+Link Research Book: https://drive.google.com/drive/u/0/folders/1kIXRN33J7yGAsoFv9rfvwgtyx-4a9vk7
