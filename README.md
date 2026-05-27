@@ -66,10 +66,9 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 ## 4. Công nghệ chúng em sử dụng (Tech Stack)
 
 - **Frontend (ReactJS):** Sử dụng Virtual DOM giúp render lại giao diện cực nhanh. So với Angular (hỗ trợ nhiều nhưng không phù hợp cho project thời gian ngắn) hay VueJS (không phổ biến trong enterprise), ReactJS cân bằng hoàn hảo giữa hiệu năng và cộng đồng hỗ trợ lớn. Rất phù hợp để áp dụng rộng rãi trong production.
+- **Mobile Application (React Native):** Để mở rộng khả năng tiếp cận người dùng trên điện thoại, nhóm quyết định phát triển ứng dụng mobile bằng React Native. Công nghệ này cho phép xây dựng ứng dụng Android và iOS chỉ với một codebase duy nhất, giúp tiết kiệm đáng kể thời gian và chi phí phát triển. Ngoài ra, React Native sử dụng cùng hệ sinh thái JavaScript và có tư duy phát triển tương tự ReactJS, giúp team dễ dàng học tập, tái sử dụng logic và đồng bộ giữa web và mobile. 
 - **Backend (NodeJS):** Với mục đích RBL (Research By Learning), chúng em muốn kết hợp việc học trên trường + áp dụng vào project thực tế để hiểu sâu bản chất và vận hành trơn tru. NodeJS có điểm cộng lớn là xử lý các ứng dụng có hàng ngàn kết nối đồng thời cực tốt, tuyệt vời để làm hệ thống Chat và Web-socket.
-- **Cơ sở dữ liệu (Database):**
-  - **MySQL (SQL):** Lưu trữ dữ liệu cần tính toàn vẹn cao như: Thông tin thanh toán, Lịch hẹn (Booking), Hồ sơ chuyên gia, Giao dịch hoàn tiền. Đảm bảo không bao giờ có chuyện mất tiền hay trùng lịch khám.
-  - **MongoDB (NoSQL):** Lưu trữ các thông tin bảo mật, nhạy cảm và linh hoạt như: Lịch sử tin nhắn chat, Bài đăng trên Forum, Dữ liệu tóm tắt của AI. MongoDB giúp ghi/đọc dữ liệu dạng JSON cực kỳ nhanh và dễ dàng mở rộng.
+- **Firebase (Database):** Nhóm quyết định sử dụng Firebase làm hệ thống cơ sở dữ liệu và backend service hỗ trợ cho toàn bộ project. Firebase cung cấp sẵn nhiều dịch vụ mạnh như Authentication, Firestore Database, Cloud Storage và Push Notification trong cùng một hệ sinh thái. Firestore lưu trữ dữ liệu dưới dạng document JSON linh hoạt, giúp việc phát triển và mở rộng hệ thống trở nên nhanh chóng hơn. Đồng thời, Firebase hỗ trợ realtime synchronization rất tốt, phù hợp cho các chức năng như chat realtime, cập nhật booking tức thời và đồng bộ dữ liệu giữa web ReactJS với ứng dụng React Native. 
 
 ---
 
