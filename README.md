@@ -101,7 +101,7 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 
 ### B. Hiệu năng (Performance)
 
-- **Phân trang (Pagination):** Áp dụng cho Diễn đàn & Chat. Sử dụng `Limit` và `Offset` trong truy vấn Database. Mỗi lần user cuộn trang, hệ thống chỉ load 10-20 bài đăng, tránh việc load 1000 bài cùng lúc gây sập Web.
+- **Phân trang (Pagination):** Áp dụng cho Diễn đàn & Chat. Sử dụng `Limit` và `Cursor Pagination` trong truy vấn Database. Mỗi lần user cuộn trang, hệ thống chỉ load 10-20 bài đăng, tránh việc load 1000 bài cùng lúc gây sập Web.
 - **Kết nối Real-time (Socket.io):** Sử dụng khái niệm `Rooms` trong Socket.io cho tính năng nhắn tin 1-1. User và Expert được join vào chung 1 Room ID (chính là ID của lịch hẹn) để đảm bảo tin nhắn bảo mật, không bị bắn nhầm sang thiết bị khác.
 - **Tối ưu tốc độ truy vấn (Indexing):** Thiết lập index cho cột Email (bảng User) trong MySQL để chức năng đăng nhập và tìm kiếm diễn ra nhanh chóng.
 
