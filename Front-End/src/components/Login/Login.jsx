@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Register from '../Register/Register';
 import './Login.css';
 
-function Login() {
+function Login({ onLoginSuccess }) {
   const [isSignUp, setIsSignUp] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -28,7 +28,7 @@ function Login() {
       setIsLoading(true);
       setTimeout(() => {
         setIsLoading(false);
-        alert(`Login successful!\nUsername: ${loginData.username}`);
+        if (onLoginSuccess) onLoginSuccess();
       }, 1500);
     }
   };
