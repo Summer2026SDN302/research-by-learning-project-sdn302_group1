@@ -1,5 +1,16 @@
 # ReMind - Nền tảng hỗ trợ giải quyết tâm lý
 
+## 0. Tài liệu nhóm
+
+| Resource                                 | Link                                                                                                                                                   |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Paper                                    | https://www.overleaf.com/read/kvtqtygvywbf#4199e5                                                                                                      |
+| GitHub Repository (BackEnd)              | https://github.com/toan215/remind-backend                                                                                                              |
+| GitHub Repository (FrontEnd)             | https://github.com/toan215/remind-frontend                                                                                                             |
+| Documentation                            | https://drive.google.com/drive/u/0/folders/1kIXRN33J7yGAsoFv9rfvwgtyx-4a9vk7                                                                           |
+| Jira                                     | https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9 |
+| SRS (Software Requirement Specification) | https://docs.google.com/document/d/1Jh5JK_i4DPZS7n8mNYPOCFnxex3mCtss/edit?rtpof=true&sd=true&tab=t.0                                                   |
+
 ## 1. Các vấn đề hiện tại đang mắc phải
 
 Gen Z hiện nay phải đối mặt với quá nhiều áp lực từ mạng xã hội, định hướng tương lai và sự phức tạp của thời đại số. Điều này dẫn đến tỷ lệ chán nản, tuyệt vọng cao nhưng lại thiếu các kênh giải tỏa an toàn, ẩn danh và chi phí hợp lý.
@@ -67,9 +78,8 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 
 - **Frontend (ReactJS):** Sử dụng Virtual DOM giúp render lại giao diện cực nhanh. So với Angular (hỗ trợ nhiều nhưng không phù hợp cho project thời gian ngắn) hay VueJS (không phổ biến trong enterprise), ReactJS cân bằng hoàn hảo giữa hiệu năng và cộng đồng hỗ trợ lớn. Rất phù hợp để áp dụng rộng rãi trong production.
 - **Backend (NodeJS):** Với mục đích RBL (Research By Learning), chúng em muốn kết hợp việc học trên trường + áp dụng vào project thực tế để hiểu sâu bản chất và vận hành trơn tru. NodeJS có điểm cộng lớn là xử lý các ứng dụng có hàng ngàn kết nối đồng thời cực tốt, tuyệt vời để làm hệ thống Chat và Web-socket.
-- **Cơ sở dữ liệu (Database):**
-  - **MySQL (SQL):** Lưu trữ dữ liệu cần tính toàn vẹn cao như: Thông tin thanh toán, Lịch hẹn (Booking), Hồ sơ chuyên gia, Giao dịch hoàn tiền. Đảm bảo không bao giờ có chuyện mất tiền hay trùng lịch khám.
-  - **MongoDB (NoSQL):** Lưu trữ các thông tin bảo mật, nhạy cảm và linh hoạt như: Lịch sử tin nhắn chat, Bài đăng trên Forum, Dữ liệu tóm tắt của AI. MongoDB giúp ghi/đọc dữ liệu dạng JSON cực kỳ nhanh và dễ dàng mở rộng.
+- **Mobile (Expo Go):** Để mở rộng khả năng tiếp cận người dùng trên điện thoại, nhóm quyết định phát triển ứng dụng mobile bằng React Native. Công nghệ này cho phép xây dựng ứng dụng Android chỉ với một codebase duy nhất, giúp tiết kiệm đáng kể thời gian và chi phí phát triển. Ngoài ra, React Native sử dụng cùng hệ sinh thái JavaScript và có tư duy phát triển tương tự ReactJS, giúp team dễ dàng học tập, tái sử dụng logic và đồng bộ giữa web và mobile.
+- **Database (MongoDB):** MongoDB lưu trữ dữ liệu dưới dạng document JSON linh hoạt, giúp việc phát triển và mở rộng hệ thống trở nên nhanh chóng hơn. Đồng thời, MongoDB tích hợp rất tốt với NodeJS thông qua Mongoose, hỗ trợ quản lý dữ liệu hiệu quả và dễ dàng. Với khả năng xử lý dữ liệu lớn và hiệu năng cao, MongoDB phù hợp cho các chức năng như quản lý người dùng, lưu trữ lịch sử chat và thông tin booking. Ngoài ra, MongoDB có thể kết hợp với Socket.IO để hỗ trợ đồng bộ dữ liệu realtime giữa ứng dụng web ReactJS và ứng dụng React Native.
 
 ---
 
@@ -117,11 +127,3 @@ Hệ thống được chia làm 3 phân hệ rõ ràng:
 - **Backend (NodeJS):** Tuân thủ chặt chẽ kiến trúc Router - Controller - Service để tách biệt rõ ràng phần xử lý logic nghiệp vụ và phần giao tiếp với Database.
 
 ---
-
-Link Jira: https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9
-
-Link Research: https://docs.google.com/document/d/1ohDlb1qm-i0SeNj-XxXq3qYZLXQPFUqug0bfvmgCZ-8/edit?usp=sharing
-
-Link Research Book: https://drive.google.com/drive/u/0/folders/1kIXRN33J7yGAsoFv9rfvwgtyx-4a9vk7
-
-Link SRS (Software Requirement Specification): https://docs.google.com/document/d/1Jh5JK_i4DPZS7n8mNYPOCFnxex3mCtss/edit?usp=sharing&ouid=105012640272031623658&rtpof=true&sd=true
