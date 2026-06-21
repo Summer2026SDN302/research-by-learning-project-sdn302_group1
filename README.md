@@ -4,12 +4,13 @@
 
 | Resource                                 | Link                                                                                                                                                   |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Paper                                    | https://www.overleaf.com/read/kvtqtygvywbf#4199e5                                                                                                      |
+| Deploy                                   | https://remind-frontend-snowy.vercel.app/kvtqtygvywbf#4199e5                                                                                           |
 | GitHub Repository (BackEnd)              | https://github.com/toan215/remind-backend                                                                                                              |
 | GitHub Repository (FrontEnd)             | https://github.com/toan215/remind-frontend                                                                                                             |
 | Documentation                            | https://drive.google.com/drive/u/0/folders/1kIXRN33J7yGAsoFv9rfvwgtyx-4a9vk7                                                                           |
 | Jira                                     | https://hoangphuc210905.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzkzYjQ3YjVhNmQ5NDhlZTgzY2RlZDZmYzZhM2VkYTMiLCJwIjoiaiJ9 |
 | SRS (Software Requirement Specification) | https://docs.google.com/document/d/1Jh5JK_i4DPZS7n8mNYPOCFnxex3mCtss/edit?rtpof=true&sd=true&tab=t.0                                                   |
+| Zotero (Research)                        | https://docs.google.com/document/d/18_nQvZ0pBluf7KETDBNDEVsKnuruTwqxSFVafg5fzs0/edit?usp=sharing                                                       |
 
 ## 1. Các vấn đề hiện tại đang mắc phải
 
